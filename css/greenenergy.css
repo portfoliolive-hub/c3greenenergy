@@ -1,0 +1,283 @@
+/***** general *****/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/***** top-nav***/
+
+.header {
+    padding: 0;
+    border: 1px solid #ececec;
+}
+
+.list-group-item {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #666;
+    line-height: 20px;
+}
+
+.list-group-item i,
+.fa-twitter i,
+.fa-facebook i,
+.fa-rss i {
+    font-size: 20px;
+
+}
+
+.list-group-horizontal .list-group-item:last-child {
+    background-color: #3bb347;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 15px;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+
+/**** main-navbar****/
+
+span.navbar-toggler-icon {
+    background-color: #3bb347;
+    font-size: 18px;
+    padding: 24px 100px 28px 24px;
+    text-align: center;
+    color: #fff;
+    line-height: 0;
+}
+
+div#navbarTogglerDemo02 {
+    padding-top: 53px;
+}
+
+span.green-home {
+    color: #3bb347;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+a.nav-link {
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+a.nav-link:hover {
+    color: #000;
+}
+
+
+/*** about ***/
+
+span.powerhouse {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+h5.card-title {
+    text-transform: capitalize;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+
+/*** button animation ***/
+
+div.button-animation {
+    -webkit-animation: appear 3s ease 0s 1 normal;
+    animation: appear 3s ease 0s 1 normal;
+}
+
+@-webkit-keyframes appear {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+}
+
+
+/*** hero *****/
+
+.hero-image {
+    background-image: url(../images/hero.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    mix-blend-mode: hard-light;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+/***** about ****/
+
+.c3 {
+    font-family: "Noto Sans", sans-serif;
+    color: #3bb347;
+    font-weight: 700;
+}
+
+.about-title h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+}
+
+.about-title h2 {
+    font-weight: 800;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 36px;
+    line-height: 100px;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/***** column ****/
+
+section.column {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat Medium", sans-serif;
+    color: #3bb347;
+}
+
+.card-text {
+    line-height: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font: bold 12px sans-serif;
+    background: #3bb347;
+}
+
+a.button:hover {
+    background: #3bb347;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/*** card with video ***/
+
+.card-body.video-card {
+    background: #3bb347;
+    height: 98%;
+}
+
+.video-card h5 {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat Medium", sans-serif;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.video-card p {
+    color: #fff;
+    text-align: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+/****** clients *****
+.clients-logo img {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    margin-top: 60px;
+    background: #373737;
+    border: 2px solid #a4a4a4;
+    border-radius: 50% !important;
+}
+**/
+
+
+/**** testemonials ***/
+
+.clients-logo img {
+    display: inline-block;
+    padding: 10px;
+    height: auto;
+    width: 100%;
+}
+
+
+/*** footer ******/
+
+footer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #dbdbdb;
+    font-variant-position: normal;
+    font-weight: 500;
+}
+
+.footer-content {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.subscribe:hover,
+.recent-news:hover {
+    color: #3bb347;
+}
+
+.soc-item {
+    display: inline-block;
+}
+
+.soc-item i {
+    color: #3bb347;
+    font-size: 30px;
+    margin: 20px 20px;
+}
+
+.hr-bottom {
+    background-color: #3bb347;
+}
+
+.btn.green-button {
+    background-color: #3bb347;
+    border: 0;
+}
